@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="miscript.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Cambio de Vehiculos</title>
+</head>
+
+<body>
+    <div id="cabecera">
+        <h1>JavaScriptFinal</h1>
+    </div>
+
+    <div id="menu">
+        <a href="selectores.html" class="item_menu"> Selectores </a>
+        <a href="funciones.html" class="item_menu"> Funciones </a>
+    </div>
+
+    <label>Seleccione:</label>
+    <select id="selectImagen">
+        <option value="Auto.png">Carro</option>
+        <option value="Moto.png">Moto</option>
+        <option value="Bicicleta.png">Bicicleta</option>
+    </select>
+
+    <button onclick="mostrarImagen()">Mostrar</button>
+
+    <div id="cuadroImagen"
+        style="width: 300px; height: 200px; background-size: contain; background-repeat: no-repeat; background-position: center; margin-top: 20px;" >
+    </div>
+
+    <div id="footer">
+        Nombre: Nyurka Cortez © ®<br> 
+        Curso 5to "A" <br>
+        UTLVTE 2025
+    </div>
+
+</body>
+</html>
